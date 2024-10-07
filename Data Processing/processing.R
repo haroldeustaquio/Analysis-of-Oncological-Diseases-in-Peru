@@ -8,6 +8,7 @@ library(tidyverse)
 # corte ya que no lo usaremos, modificamos también la columna MONTO_BRUTO para que al pasar a R lo reconozca 
 # como numeric 
 
+
 file.choose()
 datos <- 
   read_csv2("J:\\Atenciones de Cobertura Oncológica\\Datos_sin_procesar\\DATA ATENCIONES ONCOLOGICAS 2022.csv")
